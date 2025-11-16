@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "shadcn": "pnpm dlx shadcn@latest add"
   },
   "dependencies": {
     "@workspace/ui": "workspace:*",
